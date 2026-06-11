@@ -26,29 +26,17 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "About Us",
-          id: "/about",
-        },
+          name: "About Us",          id: "/about"},
         {
-          name: "Menu",
-          id: "/menu",
-        },
+          name: "Menu",          id: "/menu"},
         {
-          name: "Gallery",
-          id: "/gallery",
-        },
+          name: "Gallery",          id: "/gallery"},
         {
-          name: "Reservations",
-          id: "/reservations",
-        },
+          name: "Reservations",          id: "/reservations"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       logoSrc="http://img.b2bpic.net/free-vector/coffee-shop-retro-logo-collection_23-2148399791.jpg"
       logoAlt="Crave Kenya Logo"
@@ -56,9 +44,7 @@ export default function LandingPage() {
       bottomLeftText="Taste the Difference"
       bottomRightText="indulge@cravekenya.com"
       button={{
-        text: "Order Now",
-        href: "#",
-      }}
+        text: "Order Now",        href: "#"}}
     />
   </div>
 
@@ -66,20 +52,15 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "glowing-orb",
-      }}
+        variant: "sparkles-gradient"}}
       tag="Book Your Table"
       title="Secure Your Spot at Crave Kenya"
       description="Experience fine dining without the wait. Make a reservation at your preferred location and let us prepare an unforgettable experience for you."
       buttons={[
         {
-          text: "Reserve a Table in Mombasa",
-          href: "#mombasa-reservation-form",
-        },
+          text: "Reserve a Table in Mombasa",          href: "#mombasa-reservation-form"},
         {
-          text: "Reserve a Table in Nairobi",
-          href: "#nairobi-reservation-form",
-        },
+          text: "Reserve a Table in Nairobi",          href: "#nairobi-reservation-form"},
       ]}
     />
   </div>
@@ -90,20 +71,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "res-q1",
-          title: "How far in advance should I book?",
-          content: "We recommend booking at least 24-48 hours in advance, especially for weekend evenings or special events, to ensure availability.",
-        },
+          id: "res-q1",          title: "How far in advance should I book?",          content: "We recommend booking at least 24-48 hours in advance, especially for weekend evenings or special events, to ensure availability."},
         {
-          id: "res-q2",
-          title: "Can I modify or cancel my reservation?",
-          content: "Yes, you can modify or cancel your reservation up to 3 hours before your scheduled time. Please contact us directly via phone or email.",
-        },
+          id: "res-q2",          title: "Can I modify or cancel my reservation?",          content: "Yes, you can modify or cancel your reservation up to 3 hours before your scheduled time. Please contact us directly via phone or email."},
         {
-          id: "res-q3",
-          title: "Do you accommodate dietary restrictions?",
-          content: "Absolutely. Please inform us of any dietary restrictions or allergies when making your reservation, and our chefs will do their best to accommodate.",
-        },
+          id: "res-q3",          title: "Do you accommodate dietary restrictions?",          content: "Absolutely. Please inform us of any dietary restrictions or allergies when making your reservation, and our chefs will do their best to accommodate."},
       ]}
       title="Reservation Guidelines"
       description="Answers to common questions about making reservations at Crave Kenya."
@@ -115,58 +87,35 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Explore",
-          items: [
+          title: "Explore",          items: [
             {
-              label: "Home",
-              href: "/",
-            },
+              label: "Home",              href: "/"},
             {
-              label: "About Us",
-              href: "/about",
-            },
+              label: "About Us",              href: "/about"},
             {
-              label: "Menu",
-              href: "/menu",
-            },
+              label: "Menu",              href: "/menu"},
             {
-              label: "Gallery",
-              href: "/gallery",
-            },
+              label: "Gallery",              href: "/gallery"},
           ],
         },
         {
-          title: "Visit Us",
-          items: [
+          title: "Visit Us",          items: [
             {
-              label: "Mombasa (Citymall Nyali)",
-              href: "/contact#mombasa",
-            },
+              label: "Mombasa (Citymall Nyali)",              href: "/contact#mombasa"},
             {
-              label: "Nairobi (Kilimani Ring Road)",
-              href: "/contact#nairobi",
-            },
+              label: "Nairobi (Kilimani Ring Road)",              href: "/contact#nairobi"},
             {
-              label: "Reservations",
-              href: "/reservations",
-            },
+              label: "Reservations",              href: "/reservations"},
           ],
         },
         {
-          title: "Connect",
-          items: [
+          title: "Connect",          items: [
             {
-              label: "Contact Us",
-              href: "/contact",
-            },
+              label: "Contact Us",              href: "/contact"},
             {
-              label: "Careers",
-              href: "#",
-            },
+              label: "Careers",              href: "#"},
             {
-              label: "Press",
-              href: "#",
-            },
+              label: "Press",              href: "#"},
           ],
         },
       ]}
