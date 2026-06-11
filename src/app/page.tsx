@@ -88,11 +88,11 @@ export default function LandingPage() {
       buttonAnimation="slide-up"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/gorgeous-italian-hall-with-paintings-wall_8353-656.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/gorgeous-italian-hall-with-paintings-wall_8353-656.jpg?_wi=1",
           imageAlt: "Luxurious coffee shop interior with dark tones and gold accents",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-chef-plating-meal_23-2148794096.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-chef-plating-meal_23-2148794096.jpg?_wi=1",
           imageAlt: "Gourmet food dish with elegant plating",
         },
         {
@@ -178,7 +178,7 @@ export default function LandingPage() {
               imageAlt: "Steaming cup of gourmet coffee",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/gorgeous-italian-hall-with-paintings-wall_8353-656.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/gorgeous-italian-hall-with-paintings-wall_8353-656.jpg?_wi=2",
           imageAlt: "plated gourmet meal fine dining",
         },
         {
@@ -195,7 +195,7 @@ export default function LandingPage() {
               imageAlt: "Elegant restaurant interior",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-chef-plating-meal_23-2148794096.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-chef-plating-meal_23-2148794096.jpg?_wi=2",
           imageAlt: "plated gourmet meal fine dining",
         },
       ]}
